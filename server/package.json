@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "prisma": {
+    "seed": "node ./prisma/seed.js"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "devDependencies": {
+    "prisma": "^4.15.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.2.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "zod": "^3.21.4"
+  }
+}
